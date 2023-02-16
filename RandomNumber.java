@@ -3,13 +3,13 @@ package generateRandomNumbers;
 import java.util.Scanner;
 
 public class RandomNumber {   
-    /** Main method */
+   
     public static void main(String[] args) {
         int input;
-        int[] arraylist = new int[500]; // Create array object.
+        int[] arraylist = new int[500];
  
-        random(arraylist); // Create random numbers.
-        arraySort(arraylist); // Sort random numbers.
+        random(arraylist);
+        arraySort(arraylist); 
  
         do{
             System.out.print("Please enter a number between 1 and 500: ");
